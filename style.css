@@ -30,13 +30,13 @@ header{
     font-size:28px;
     font-weight: bold;
     /* color: #fefefe; */
-    color: #f2eb1e;
+    color: #0292B7;
 
 }
 .logo img{
     border-radius: 50%;
     margin-right: 10px;
-    /* z-index: 1; */
+    z-index: 1;
 }
 
 .hamburger{
@@ -48,7 +48,7 @@ header{
 
 .nav-bar ul li a{
     display: block;
-    color: #fefefe;
+    color: #0292B7;
     font-size: 20px;
     padding: 10px 25px;
     border-radius: 50px;
@@ -88,7 +88,7 @@ header{
     .hamburger .line{
         width: 30px;
         height: 3px;
-        background: #fefefe;
+        background: #11101b;
         margin:6px 0;
     }
     .nav-bar{
@@ -138,13 +138,13 @@ header{
     width: 100%;
     height: 80vh;
 
-    background-image: url(image/team.jpeg);
+    /* background-image: url(image/team.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: cover; */
     /* background-image: url(new-photos/background1.jpeg);
     background-repeat: no-repeat;
     background-size: cover; */
-    /* background-color: #F8FFEC;  come back here*/
+    background-color: #ece6e6cf;
     /* background-color: rgb(79, 96, 111); */
     /* background-image: url(image/box3.jpeg);
     background-repeat: no-repeat;
@@ -169,13 +169,13 @@ header{
 .home-inner-container{
     font-family:  Garamond;
     /* color: #fefefe; */
-    color: #f2eb1e;
+    color: #0292B7;
     font-size: 40px;
     opacity: 90%;
 }
 .home-inner-container p{
     font-family:  Garamond;
-    color: #f2eb1e;
+    color: #0292B7;
 }
 .home .image{
     border-radius: 50%;
@@ -186,7 +186,7 @@ button{
     width: 200px;
     border-radius: 120px;
     color: #fefefe;
-    background: #77e87a;
+    background: #0292B7;
     border-style: none;
     font-family: monospace;
     font-size: 18px;
@@ -208,12 +208,13 @@ button:hover{
     .home-inner-container{
         font-family:  Garamond;
         /* color: #fefefe; */
-        font-size: 33px;
+        font-size: 25px;
         opacity: 90%;
     }
     .home-inner-container p{
         font-family:  Garamond;
-        color: #f2eb1e;
+        color: #0292B7;
+        padding-bottom: 5px;
        
     }
     button{
@@ -327,6 +328,7 @@ button:hover{
 
 }
 
+
 @media only screen and (max-width:720px){
     .service-container{
         height: auto;
@@ -334,12 +336,22 @@ button:hover{
         flex-direction: column;
         align-items: center;
     }
+    .card{
+        background-color: #f1f1f1;
+        width: 350px;
+        margin: 15px;
+        padding: 10px;
+        border-radius: 5%;
+        height: fit-content;
+        
+    }
 
     #service-section h1{
         font-size: 25px;
         text-align: center;
 
     }
+    
 }
 
 
@@ -389,6 +401,7 @@ button:hover{
 .card-body h2{
     color: #0292B7;
     margin-bottom: 5px;
+    font-size: 20px;
 }
 #btn{
     margin: 15px 0px;
@@ -396,7 +409,7 @@ button:hover{
     border: none;
     border-radius: 50px;
     color:#000;
-    font-size: 18px;
+    font-size: 16px;
     background: #ffffff;
 }
 #btn:hover{
@@ -583,7 +596,7 @@ button:hover{
         font-family: "DM sans";
         margin: 0 auto;
         margin-top: 20px;
-        font-size: 17px;   
+        font-size: 17px;  
     }
 
     .footer footer .footer-info .contact h4{
@@ -598,11 +611,11 @@ button:hover{
     }
     .footer footer .footer-info .contact a{
         color: black;
-        font-size: 15px;
+        font-size: 16px;
   }
   .footer footer .footer-info .contact,.location{
     font-family: 'DM sans';
-    font-size: 15px;
+    font-size: 16px;
 }
 }
 

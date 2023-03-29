@@ -77,6 +77,9 @@ header{
     }
 }
 @media only screen and (max-width:900px){
+    nav-bar ul li a{
+        color: #fefefe;
+    }
     .logo div{
         display: none;
     }
@@ -104,7 +107,7 @@ header{
     }
 
     .nav-bar.active{
-        height: 350px;
+        height: 410px;
         
     }
     .nav-bar.nav-bar.active ul{

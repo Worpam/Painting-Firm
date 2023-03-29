@@ -1,0 +1,463 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+    /* font-family: "Google Sans Regular"; */
+    text-decoration: none;
+    
+}
+
+body{
+    background: #fefefe;
+}
+
+header{
+    width:100%;
+    height: 80px;
+    /* background-color: #11101b; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    position: absolute;
+    z-index: 1;
+    
+}
+.logo{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    font-size:28px;
+    font-weight: bold;
+    /* color: #fefefe; */
+    color: #393939;
+}
+.logo img{
+    border-radius: 50%;
+    margin-right: 10px;
+    z-index: 1;
+}
+
+.hamburger{
+    display: none;
+}
+.nav-bar ul{
+    display: flex;
+}
+
+.nav-bar ul li a{
+    display: block;
+    /* color: #fefefe; */
+    color: #393939;
+    font-size: 20px;
+    padding: 10px 25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin:0 5px;
+}
+
+.nav-bar ul li a:hover{
+    color:#11101b;
+    background:#fefefe;
+}
+
+.nav-bar ul li a.active{
+      color:#11101b;
+      background: #fefefe;
+}
+
+@media only screen and (max-width:1320px){
+    header{
+        padding: 0 50px;
+    }
+}
+@media only screen and (max-width:1100px){
+    header{
+        padding: 0 30px;
+    }
+}
+@media only screen and (max-width:900px){
+    .logo div{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+        cursor: pointer;
+        z-index: 1;
+    }
+    .hamburger .line{
+        width: 30px;
+        height: 3px;
+        background: #fefefe;
+        margin:6px 0;
+    }
+    .nav-bar{
+        height: 0px;
+        position: absolute;
+        top: 0px;
+        left: 0;
+        right: 0;
+        width: 100vw;
+        background: #0292B7;
+        transition: 0.5s;
+        overflow: hidden;
+    }
+
+    .nav-bar.active{
+        height: 450px;
+        
+    }
+    .nav-bar.nav-bar.active ul{
+        opacity: 1;
+    }
+    .nav-bar ul {
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        transition: 0.5s;
+        opacity: 0;
+        
+    }
+    .nav-bar ul li a{
+        margin-bottom: 12px;
+        
+    }
+
+}
+
+.box{
+    width: 100%;
+    height: 50vh;
+    background-image: url(image/box3.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.box-content{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: sans-serif;
+    letter-spacing: 5px;
+    /* color: #393467; */
+    color: #0292B7;
+}
+@media screen and (max-width:678px){
+    .box-content{
+        font-size: 25px;
+    }
+}
+
+/* .about-section{
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+} */
+
+.about-container{
+    width: 100%;
+    height: auto;
+    background-color:#ece6e6cf;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.about-content{
+    width: 80%;
+    padding-top: 50px;
+    margin: 0 auto;
+}
+
+.about-content h2{
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0292B7;
+}
+
+.about-content .image{
+       margin-bottom: 15px;
+}
+
+.about-content p{
+    color:#393939;
+    font-family: 'Muli', sans-serif; 
+    margin-bottom: 15px;
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+.about-content span{
+    color:#0292B7;
+}
+.about-content .last-p{
+    margin-bottom: 50px;
+}
+@media screen and (max-width:678px){
+    .about-content p{
+        font-size: 17px;
+    }
+    .about-content h2{
+        font-size: 25px;
+        padding-bottom: 17px;
+    }
+}
+
+.project-container{
+    background-color: #f1f1f1;
+}
+
+/* project-completed css 88888888888888888888888888888888888*/
+
+
+.mySlides1, .mySlides2 {
+    display: none
+}
+img {
+    vertical-align: middle;
+}
+
+.project-completed .h2{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.project-completed .h2 h2{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #0292B7;
+}
+.project-completed .h2 h2 span{
+    font-family:Arial, Helvetica, sans-serif; /* come back*/
+}
+.project-completed .h2 p{
+    
+        color:#393939;
+        font-family: 'Muli', sans-serif; 
+        margin-bottom: 15px;
+        font-size: 19px;
+        letter-spacing: 1px;
+}
+.project-completed .h2 span{
+    color:#0292B7;
+}
+
+.project-completed{
+    width: auto;
+    height: auto;
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+.pro-description h2{
+      color: #0292B7;
+      text-align: center;
+      font-family: sans-serif;
+      font-size: 30px;
+}
+.pro-description{
+    width: 80%;
+    height: 20%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a grey background color */
+.prev:hover, .next:hover {
+  background-color: #f1f1f1;
+  color: black;
+}
+.text {
+  color: #f2f2f2;
+  font-size: 22px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* footer */
+.footer{
+    width: 100%;
+    height: auto;
+    background: #0292B7;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/* service with sacrifice */
+.footer footer .footer-container,.footer-info{
+    width: 80%;
+    font-family: "DM sans";
+    margin: 0 auto;
+    margin-top: 40px;
+    font-size: 20px;
+    
+}
+
+.footer footer .footer-info{
+    width: 80%;
+    font-family: "DM sans";
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+
+.footer footer .footer-info{
+        display: flex;
+        justify-content: space-between;
+}
+
+/* links */
+.footer footer .footer-info .contact a{
+      color: black;
+      font-size: 18px;
+}
+.footer footer .footer-info .contact,.location{
+    font-family: 'DM sans';
+    font-size: 18px;
+}
+
+.footer footer{
+    margin-bottom: 40px;
+}
+
+/* our contact */
+.footer footer .footer-info .contact h4{
+    margin-bottom: 7px;
+    font-family: "DM sans";
+    font-size: 20px;
+}
+
+/* our location */
+.footer footer .footer-info .location h4{
+    margin-bottom: 7px;
+    font-family: "DM sans";
+    font-size: 20px;
+}
+
+.footer footer .footer-info .contact span{
+    margin-left: 5px;
+}
+
+@media only screen and (max-width:900px){
+    .footer footer .extra-div{
+        display: none;
+    }
+
+    .footer footer .footer-container,.footer-info{
+        width: 80%;
+        font-family: "DM sans";
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 15px;
+        
+    }
+
+    .footer footer .footer-info .contact h4{
+        margin-bottom: 7px;
+        font-family: "DM sans";
+        font-size: 15px;
+    }
+    .footer footer .footer-info .location h4{
+        margin-bottom: 7px;
+        font-family: "DM sans";
+        font-size: 15px;
+    }
+    .footer footer .footer-info .contact a{
+        color: black;
+        font-size: 13px;
+  }
+  .footer footer .footer-info .contact,.location{
+    font-family: 'DM sans';
+    font-size: 13px;
+}
+}
+
+
+

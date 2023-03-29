@@ -336,7 +336,7 @@ button:hover{
     }
 
     #service-section h1{
-        font-size: 28px;
+        font-size: 25px;
         text-align: center;
 
     }
@@ -499,10 +499,10 @@ button:hover{
         width: auto;
     }
     .why-container p{
-        font-size: 15px;
+        font-size: 14px;
     }
     .why-container h2{
-        font-size: 28px;
+        font-size: 20px;
     }
 }
 

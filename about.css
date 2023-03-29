@@ -212,12 +212,11 @@ header{
     }
 }
 
-.project-container{
-    background-color: #f1f1f1;
-}
+
 
 /* project-completed css 88888888888888888888888888888888888*/
 
+/* 4 changes to make for big screen */
 
 .mySlides1, .mySlides2 {
     display: none
@@ -227,7 +226,8 @@ img {
 }
 
 .h2{
-    width: 80%;
+    
+    width: 90%;  /* make it 80 for big screen */ 
     margin: 0 auto;
     
 }
@@ -235,7 +235,7 @@ img {
     padding-top: 20px;
     padding-bottom: 20px;
     font-family: sans-serif;
-    font-size: 30px;
+    font-size: 25px;/* make it 30 for big screen */
     color: #0292B7;
 }
 .h2 h2 span{
@@ -245,7 +245,7 @@ img {
         color:#393939;
         font-family: 'Muli', sans-serif; 
         margin-bottom: 15px;
-        font-size: 19px;
+        font-size: 17px;/* make it 19 for big screen */
         letter-spacing: 1px;
 }
 .h2 span{
@@ -263,7 +263,7 @@ img {
       color: #0292B7;
       text-align: center;
       font-family: sans-serif;
-      font-size: 30px;
+      font-size: 25px;/* make it 30 for big screen */
 }
 .pro-description{
     width: 80%;
@@ -444,27 +444,27 @@ img {
         font-family: "DM sans";
         margin: 0 auto;
         margin-top: 20px;
-        font-size: 15px;
+        font-size: 17px;
         
     }
 
     .footer footer .footer-info .contact h4{
         margin-bottom: 7px;
         font-family: "DM sans";
-        font-size: 15px;
+        font-size: 17px;
     }
     .footer footer .footer-info .location h4{
         margin-bottom: 7px;
         font-family: "DM sans";
-        font-size: 15px;
+        font-size: 17px;
     }
     .footer footer .footer-info .contact a{
         color: black;
-        font-size: 13px;
+        font-size: 16px;
   }
   .footer footer .footer-info .contact,.location{
     font-family: 'DM sans';
-    font-size: 13px;
+    font-size: 16px;
 }
 }
 

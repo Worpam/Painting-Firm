@@ -89,8 +89,8 @@ header{
         z-index: 1;
     }
     .hamburger .line{
-        width: 30px;
-        height: 3px;
+        width: 25px;
+        height: 2px;
         background: #11101b;
         margin:6px 0;
     }
@@ -138,18 +138,7 @@ header{
 .home{
     width: 100%;
     height: 80vh;
-
-    /* background-image: url(image/team.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
-    /* background-image: url(new-photos/background1.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     background-color: #ece6e6cf;
-    /* background-color: rgb(79, 96, 111); */
-    /* background-image: url(image/box3.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -158,7 +147,7 @@ header{
 
 .home-container{
     height: 50vh;
-    width: 50%;
+    width: 60%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -201,6 +190,7 @@ button:hover{
 }
 @media only screen and (max-width:900px){
     .home{
+        height: 60vh;
         justify-content: center;
     }
     .home .image{
@@ -209,19 +199,23 @@ button:hover{
     .home-inner-container{
         font-family:  Garamond;
         /* color: #fefefe; */
-        font-size: 25px;
+        font-size: 18px;
         opacity: 90%;
     }
     .home-inner-container p{
         font-family:  Garamond;
         color: #0292B7;
+        font-size: 17px;
         padding-bottom: 5px;
        
     }
+    .home-container{
+        width: 90%;
+    }
     button{
-        height: 36px;
-        width: 150px;
-        font-size: 16px;
+        height: 31px;
+        width: 100px;
+        font-size: 15px;
     }
 }
 @media only screen and (min-width:678px){

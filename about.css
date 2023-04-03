@@ -186,8 +186,25 @@ header{
 }
 
 .about-content .image{
-       margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
 }
+.about-content .image img{
+    margin-left: 50px;
+}
+.about-content .image1{
+    display: none;
+}
+@media (min-width: 800px) and (max-width: 1180px) {
+    .about-content .image{
+        display: inline;
+    }
+    .about-content .image img{
+        margin-bottom: 20px;
+    }
+}
+
 
 .about-content p{
     color:#393939;
@@ -213,6 +230,16 @@ header{
     .about-content h2{
         font-size: 25px;
         padding-bottom: 10px;
+    }
+    .about-content .image{
+        display: none;
+    }
+    .about-content .image1{
+        display: block;
+        margin-bottom: 5px;
+    }
+    .about-content .image1 img{
+        margin-bottom: 10px;
     }
 }
 

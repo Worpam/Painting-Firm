@@ -107,7 +107,7 @@ header{
     }
 
     .nav-bar.active{
-        height: 410px;
+        height: 51.5vh;
         
     }
     .nav-bar.nav-bar.active ul{
@@ -128,9 +128,7 @@ header{
     }
     .logo img{
         width: 110px;
-        display: flex;
-        position: relative;
-        top: -5px;
+
     }
 
 }

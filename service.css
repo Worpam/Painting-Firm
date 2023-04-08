@@ -259,6 +259,17 @@ header{
     padding-bottom: 40px;
 
 }
+.service-container .meta-info{
+    font-size: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.service-container .meta-info span a{
+    text-decoration: none;
+    color: #0292B7;
+}
 .service-sub-container{
     width: auto;
     display: flex;
@@ -361,6 +372,9 @@ header{
     .inner-text{
         font-size: 38px;
         color:whitesmoke;
+    }
+    .service-container .meta-info{
+        margin-top: 15px;
     }
     
 }

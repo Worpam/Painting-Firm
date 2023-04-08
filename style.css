@@ -107,7 +107,7 @@ header{
     }
 
     .nav-bar.active{
-        height: 51.5vh;
+        height: 60vh;
         
     }
     .nav-bar.nav-bar.active ul{
@@ -124,13 +124,19 @@ header{
     }
     .nav-bar ul li a{
         margin-bottom: 12px;
-        
+    
     }
     .logo img{
         width: 110px;
 
     }
 
+}
+@media only screen and (max-width:750px){
+    .nav-bar ul li a{
+        font-size:17px ;
+    }
+ 
 }
 
 /* home section */

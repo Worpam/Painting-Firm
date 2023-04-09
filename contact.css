@@ -267,7 +267,7 @@ header{
         text-align: center;
     }
     .main-content .inner-content .social .sub-img{
-        margin-left: 32%;
+        margin-left: 40%;
         
         
     }
@@ -279,6 +279,13 @@ header{
     }
     .inner-content .social{
         margin-bottom: 30px;
+    }
+}
+@media (min-width: 0px) and (max-width: 667px){
+    .main-content .inner-content .social .sub-img{
+        margin-left: 30%;
+        
+        
     }
 }
 .main-content h2{

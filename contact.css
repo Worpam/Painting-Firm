@@ -97,13 +97,14 @@ header{
         left: 0;
         right: 0;
         width: 100vw;
-        background: #0292B7;
+        background: linear-gradient(to bottom,#0292B7, #c5d0db );
+        /* background: #0292B7; */
         transition: 0.5s;
         overflow: hidden;
     }
 
     .nav-bar.active{
-        height: 50vh;
+        height: 45vh;
         
     }
     .nav-bar.nav-bar.active ul{

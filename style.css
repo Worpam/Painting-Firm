@@ -375,7 +375,7 @@ button:hover{
 .card-title3{
     width: 100%;
     height: 250px;
-    background: linear-gradient(rgba(11, 61, 126, 0.4), rgba(228, 221, 11, 0.7)), url('image/Plumbing.png');
+    background: linear-gradient(rgba(11, 61, 126, 0.4), rgba(228, 221, 11, 0.7)), url('image/Plumbing.jpg');
     background-size: cover;
     clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
     

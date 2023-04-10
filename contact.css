@@ -226,24 +226,7 @@ header{
     padding-top: 60px;
     padding-bottom: 60px;
 }
-/* .main-container .main-header{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.main-container .main-header img{
-    width: 100px;
-}
-.main-container .main-header .line{
-    height: 50px;
-    width: 2px;
-    background-color: #ffffff;
-    margin-right: 7px;
-}
-.main-container .main-header p{
-    color: #ffffff;
-    font-size: 17px;
-} */
+
 .main-content{
     
     width: 80%;
@@ -260,6 +243,7 @@ header{
     justify-content: space-evenly;
     font-family: sans-serif;
     color: #333333;
+    margin-bottom: 60px;
 }
 @media screen and (max-width:800px){
     .main-content .inner-content{
@@ -278,7 +262,7 @@ header{
         margin-bottom: 30px;
     }
     .inner-content .social{
-        margin-bottom: 30px;
+        margin-bottom: -10px;
     }
 }
 @media (min-width: 0px) and (max-width: 667px){

@@ -124,7 +124,8 @@ header{
     }
     
     .logo img{
-        width: 110px;
+        width: 130px;
+        margin-left: -30px;
     }
 
 }
